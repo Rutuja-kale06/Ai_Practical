@@ -1,0 +1,15 @@
+is_day_light_present=input(&quot;Is these is sunlight&quot;).upper()
+is_human_precence=input(&quot;is someone present there&quot;).upper()
+if is_day_light_present==&#39;YES&#39; and is_human_precence==&quot;YES&quot;:
+    print(&quot;LIGHT WILL BE ON&quot;)
+else:
+    print(&quot;NO LIGHT&quot;)
+
+is_vehicle_there=input(&quot;have you enterned with vehicle&quot;)
+if_gate_close=input(&quot;is gate close &quot;)
+if is_vehicle_there==&quot;1&quot; and if_gate_close==&quot;1&quot;:
+    print(&quot;open gate&quot;)
+else:
+    print(&quot;close gate&quot;)
+
+
